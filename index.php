@@ -14,7 +14,7 @@ $today = $formatter->format(new DateTime());
 if ($today === "maandag") {
     $title = 'Ja 😢';
     $image = 'sad_guy.svg';
-    $text = 'Het is vandaag bistro-maandag!';
+    $text = 'Het is vandaag bistro-maandag. Maar McDonalds-maandag is ook lekker!';
 } else {
     $title = 'Nee 🥳';
     $image = 'bbq_guy.svg';
