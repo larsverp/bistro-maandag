@@ -6,3 +6,5 @@ services:
     build: .
     ports:
       - "7965:80"
+    volumes:
+      - .:/var/www/html/
