@@ -7,3 +7,5 @@ RUN apt-get update && \
     dpkg-reconfigure --frontend=noninteractive locales && \
     update-locale LANG=nl_NL.UTF-8 && \
     docker-php-ext-install intl
+
+COPY . /var/www/html
