@@ -8,4 +8,4 @@ RUN apt-get update && \
     update-locale LANG=nl_NL.UTF-8 && \
     docker-php-ext-install intl
 
-# COPY . /var/www/html
+COPY . /var/www/html
