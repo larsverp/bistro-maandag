@@ -15,6 +15,10 @@ if ($today === "maandag") {
     $title = 'Ja 😢';
     $image = 'hamburger.png';
     $text = 'Het is vandaag bistro-maandag, maar McDonalds-maandag is ook lekker hoor!';
+} elseif ($today === "vrijdag") {
+    $title = 'Nee 🍟';
+    $image = 'family.png';
+    $text = 'Het is vandaag Family-friday natuurlijk!';
 } else {
     $title = 'Nee 🥳';
     $image = 'bbq_guy.svg';
