@@ -18,7 +18,7 @@ if ($today === "maandag") {
 } elseif ($today === "vrijdag") {
     $title = 'Nee 🍟';
     $image = 'family.png';
-    $text = 'Het is vandaag Family-friday natuurlijk!';
+    $text = 'Het is nooit meer Family friday 😭';
 } else {
     $title = 'Nee 🥳';
     $image = 'bbq_guy.svg';
